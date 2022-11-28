@@ -264,5 +264,28 @@ body{
     color: white;
     background: #ea5173;
 }
-
-
+.recent-property .fav{
+    font-size: 24px;
+    top: 10px;
+    color: #ea5173;
+    position: absolute;
+    right: 15px;
+    cursor: pointer;
+}
+.recent-property h3{
+    font-family: 'Eczar',sans-serif;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.recent-property .box span{
+    color: #ea5173;
+    font-size: 14px;
+}
+.recent-property .box p{
+    font-family: 'Roboto',sans-serif;
+    font-size: 15px;
+}
+.recent-property .box{
+    box-shadow: 0px 1px 2px rgba(234, 124, 131, 0.388);
+    border-radius: 4px;
+}
