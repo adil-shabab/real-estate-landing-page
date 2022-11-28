@@ -16,7 +16,7 @@ p{
     margin: 0px;
 }
 body{
-    font-family: 'Roboto', sans-serif;  
+    font-family: 'Roboto', sans-serif !important;  
 }
 .button{
     outline: none;
@@ -55,6 +55,30 @@ body{
     justify-content: center;
     align-items: center;
 }
+.lang-btn{
+    background: white;
+    border: none;
+    outline: none;
+    font-family: 'Roboto',sans-serif;
+    margin-left: 35px;
+}
+
+
+/* scroll trigger  */
+.main{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -103,6 +127,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    /* position: absolute; */
+}
+.hero-section .right-section{
+    position: relative;
 }
 .hero-section .right-section span{
     color: #ea5173;
@@ -140,4 +168,101 @@ body{
     font-size: 16px;
     font-family: 'Roboto';
 }
+.hero-section .right-section .curved-arrow-hero{
+    position: absolute;
+    right: 0px;
+    bottom: 25px;
+}
+.hero-section .left-section{
+    position: relative;
+}
+.hero-section .left-section .hero-img{
+    border-radius: 45px;
+}
+.hero-section .left-section .circle{
+    position: absolute;
+    background: white;
+    box-shadow: 0px 1px 3px #e26d8ae7;
+    width: 140px;
+    left: -60px;
+    height: 140px;
+    font-family: 'Roboto';
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 50%;
+}
+
 /* hero section css end */
+
+
+
+
+
+/* why us section css start  */
+.why-us{
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+.why-us h2{
+    font-size: 40px;
+    font-family: 'Eczar',sans-serif;
+    margin-bottom: 80px;
+}
+.why-us h2 span{
+    color: #ea5173;
+}
+.why-us .box h4{
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 15px;
+}
+.why-us .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.why-us .box img{
+    transform: scale(0.8);
+    margin-bottom: 25px;
+}
+
+
+
+
+
+
+
+
+/* recently added property section  */
+.recent-property{
+    margin-bottom: 80px;
+}
+.recent-property h2{
+    font-size: 40px;
+    font-family: 'Eczar',sans-serif;
+    margin-bottom: 80px;
+}
+.recent-property h2 span{
+    color: #ea5173;
+}
+.recent-property button{
+    outline: none;
+    border: 1px solid #ea5173;
+    transition: 0.5s;
+    display: inline-block;
+    z-index: 0;
+    background: white;
+    color: black;
+    padding: 8px 15px;
+    margin-right: 15px;
+    position: relative;
+    overflow: hidden;
+}
+.recent-property button.active{
+    color: white;
+    background: #ea5173;
+}
+
+
