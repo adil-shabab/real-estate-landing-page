@@ -63,14 +63,25 @@ body{
     margin-left: 35px;
 }
 
+  .toggle .tabs .tab {
+    cursor: pointer;
+  }
+  .toggle .tabs .tab.active {
+    color: white;
+    background: #ea5173;
+  }
+  .toggle .panels .panel {
+    display: none;
+  }
+  .toggle .panels .panel:first-child {
+    display: block;
+  }
 
-/* scroll trigger  */
-.main{
-    width: 100%;
-    height: 100%;
-    position: relative;
-    overflow: hidden;
-}
+
+
+
+
+
 
 
 
@@ -288,4 +299,74 @@ body{
 .recent-property .box{
     box-shadow: 0px 1px 2px rgba(234, 124, 131, 0.388);
     border-radius: 4px;
+}
+
+
+
+
+
+
+
+/* gallery section  */
+.gallery{
+    width: 100%;
+    position: relative;
+    min-height: 100vh;
+    overflow: hidden;
+}
+.gallery .img-box{
+    width: 100%;
+    position: absolute;
+}
+.gallery-txt{
+    font-family: 'Eczar',sans-serif;
+    font-size: 40px;
+    margin-bottom:80px;
+}
+.gallery-txt span{
+    color: #ea5173;
+}
+
+
+
+
+
+
+/* banner section  */
+.banner-section{
+    margin-top: 100px;
+    margin-bottom: 80px;
+    background: #f65074;
+    color: white;
+}
+.banner-section span{
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Roboto',sans-serif;
+}
+.banner-section h4{
+    font-family: 'Eczar',sans-serif;
+    font-size: 35px;
+}
+.banner-section p{
+    width: 50%;
+    margin-bottom: 30px;
+}
+.no-gutter{
+    --bs-gutter-x: -1.5rem !important;
+}
+.banner-section .input-box{
+    background: white;
+    width: fit-content;
+    padding: 5px 5px 5px 20px;
+}
+.banner-section .input-box i{
+    color: black;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.banner-section input{
+    border: none;
+    padding-left: 15px;
+    outline: none;
 }
