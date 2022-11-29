@@ -6,10 +6,8 @@ gsap.defaults({ease: "none", duration: 2});
 const tl = gsap.timeline();
 tl.from(".second-box", {xPercent: -100})
   .from(".third-box", {xPercent: 100})
-  .from(".fourth-box", {yPercent: -100})
-  .from(".fifth-box", {yPercent: 100})
-  .from(".sixth-box", {xPercent: -100})
-  .from(".seventh-box", {xPercent: 100})
+  .from(".fourth-box", {xPercent: -100})
+  .from(".fifth-box", {xPercent: 100})
 
 // pin the container and link the animation to the scrollbar (scrub: true). We could easily embed this in the gsap.timeline() to shorten things a bit, but this is to show that you can create the ScrollTrigger separately if you prefer. 
 ScrollTrigger.create({

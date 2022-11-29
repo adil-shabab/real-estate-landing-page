@@ -326,47 +326,12 @@ body{
 .gallery-txt span{
     color: #ea5173;
 }
+.gallery .img-box img{
+    border-radius: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
 
 
 
 
 
-
-/* banner section  */
-.banner-section{
-    margin-top: 100px;
-    margin-bottom: 80px;
-    background: #f65074;
-    color: white;
-}
-.banner-section span{
-    font-size: 18px;
-    margin-bottom: 15px;
-    font-family: 'Roboto',sans-serif;
-}
-.banner-section h4{
-    font-family: 'Eczar',sans-serif;
-    font-size: 35px;
-}
-.banner-section p{
-    width: 50%;
-    margin-bottom: 30px;
-}
-.no-gutter{
-    --bs-gutter-x: -1.5rem !important;
-}
-.banner-section .input-box{
-    background: white;
-    width: fit-content;
-    padding: 5px 5px 5px 20px;
-}
-.banner-section .input-box i{
-    color: black;
-    font-size: 20px;
-    margin-right: 20px;
-}
-.banner-section input{
-    border: none;
-    padding-left: 15px;
-    outline: none;
-}
